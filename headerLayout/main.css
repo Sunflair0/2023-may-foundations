@@ -1,0 +1,51 @@
+:root {
+	--margin: 7px;
+	--width: 42%;
+	--height: 20%;
+	--border: 2px darkolivegreen solid;
+}
+
+body {
+	scale: .75;
+	color: darkolivegreen;
+	font-size: x-large;
+	font-weight: 700;
+}
+
+.header {
+	position: relative;
+	width: 800px;
+	height: 150px;
+	border: var(--border);
+}
+
+.logo {
+	position: absolute;
+	margin: var(--margin);
+	padding: 5px;
+	width: var(--width);
+	height: calc(var(--height) * 2);
+	border: var(--border);
+}
+
+.top-nav {
+	position: absolute;
+	margin: var(--margin);
+	padding: 5px;
+	width: var(--width);
+	height: var(--height);
+	border: var(--border);
+	right: 0;
+
+}
+
+.menu {
+	position: absolute;
+	margin: var(--margin);
+	padding: 5px;
+	width: calc(var(--width) * 1.5);
+	height: var(--height);
+	border: var(--border);
+	bottom: 0;
+	right: 0;
+}
