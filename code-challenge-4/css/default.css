@@ -1,6 +1,10 @@
+html {
+font-size: 3vh;
+font-family: "Open Sans";
+}
+
 body {
-	margin: 0;
-	font-family: "Open Sans";
+	margin: 0;	
 }
 
 a {
