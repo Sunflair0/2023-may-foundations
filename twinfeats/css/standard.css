@@ -67,6 +67,10 @@ article {
 	background-image: url(../images/apps.jpg);
 }
 
+#contact::before {
+	background-image: url(../images/contactbg.jpg);
+}
+
 #services h2 {
 	font-size: 1.25em;
 }
@@ -149,4 +153,25 @@ article {
 	margin-top: .3rem;
 	margin-right: 1em;
 	margin-bottom: 2em;
+}
+
+#contact img {
+	height: 1.5em;
+	vertical-align: middle;
+	padding-bottom: .25em;
+	padding-right: .25em;
+}
+
+#contact>div {
+	display: flex;
+	flex-direction: column;
+	width: calc(2em + 12ch);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#contact a {
+	color: #303030;
+	text-decoration: none;
 }
