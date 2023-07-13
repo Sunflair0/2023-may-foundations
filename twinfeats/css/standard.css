@@ -175,3 +175,8 @@ article {
 	color: #303030;
 	text-decoration: none;
 }
+
+#mobile-nav,
+#mobile-trigger, #bonus {
+	display: none;
+}
